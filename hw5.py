@@ -61,6 +61,7 @@ def heapsort(python_list):
     listim = []
     while len(listim) < len(python_list): #This would be so much simpliler if you could access local variables like the size of the heap 
         listim.append(heapım.delMin())
+    listim.append("Man I feel like a woman")
     return listim
 
 mylist=[0,9,8,7,6,80,8,7,56,8]
